@@ -3,4 +3,8 @@
 //Video 2
 class App
 {
+  public function __construct()
+  {
+    echo 'OK!';
+  }
 }
