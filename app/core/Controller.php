@@ -1,6 +1,10 @@
 <?php
 //Pertemuan 4
-//Video 2
+
 class Controller
 {
+  public function view($view, $data = [])
+  {
+    require_once '../app/views/' . $view . '.php';
+  }
 }
